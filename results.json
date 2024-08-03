@@ -1,0 +1,212 @@
+{
+    "classification": {
+        "Logistic Regression": {
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1 Score": 1.0,
+            "ROC-AUC": 1.0,
+            "TNR": 1.0,
+            "Classification Report": {
+                "3.0": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 970.0
+                },
+                "4.0": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 1030.0
+                },
+                "accuracy": 1.0,
+                "macro avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                },
+                "weighted avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    970,
+                    0
+                ],
+                [
+                    0,
+                    1030
+                ]
+            ]
+        },
+        "K-Nearest Neighbors": {
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1 Score": 1.0,
+            "ROC-AUC": 1.0,
+            "TNR": 1.0,
+            "Classification Report": {
+                "3.0": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 970.0
+                },
+                "4.0": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 1030.0
+                },
+                "accuracy": 1.0,
+                "macro avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                },
+                "weighted avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    970,
+                    0
+                ],
+                [
+                    0,
+                    1030
+                ]
+            ]
+        },
+        "Gaussian Naive Bayes": {
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1 Score": 1.0,
+            "ROC-AUC": 1.0,
+            "TNR": 1.0,
+            "Classification Report": {
+                "3.0": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 970.0
+                },
+                "4.0": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 1030.0
+                },
+                "accuracy": 1.0,
+                "macro avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                },
+                "weighted avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    970,
+                    0
+                ],
+                [
+                    0,
+                    1030
+                ]
+            ]
+        },
+        "Random Forest": {
+            "Precision": 1.0,
+            "Recall": 1.0,
+            "F1 Score": 1.0,
+            "ROC-AUC": 1.0,
+            "TNR": 1.0,
+            "Classification Report": {
+                "3.0": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 970.0
+                },
+                "4.0": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 1030.0
+                },
+                "accuracy": 1.0,
+                "macro avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                },
+                "weighted avg": {
+                    "precision": 1.0,
+                    "recall": 1.0,
+                    "f1-score": 1.0,
+                    "support": 2000.0
+                }
+            },
+            "Confusion Matrix": [
+                [
+                    970,
+                    0
+                ],
+                [
+                    0,
+                    1030
+                ]
+            ]
+        }
+    },
+    "regression": {
+        "Linear Regression": {
+            "MAE": 2.5220048473667767e-05,
+            "MRAE": 6.654914547184188e-06,
+            "R2 Score": 0.9999962220382242
+        },
+        "K-Nearest Neighbors": {
+            "MAE": 3.2596107597875347e-06,
+            "MRAE": 8.601264619343306e-07,
+            "R2 Score": 0.9999999198211071
+        },
+        "Random Forest": {
+            "MAE": 1.5379697515527368e-14,
+            "MRAE": 4.058301982814971e-15,
+            "R2 Score": 1.0
+        },
+        "Gradient Boosting": {
+            "MAE": 8.946915820575495e-06,
+            "MRAE": 2.360858279433797e-06,
+            "R2 Score": 0.9999999992944582
+        },
+        "AdaBoost": {
+            "MAE": 3.133981962832877e-14,
+            "MRAE": 8.269762913757088e-15,
+            "R2 Score": 1.0
+        },
+        "Multi-Layer Perceptron": {
+            "MAE": 0.011214187009324155,
+            "MRAE": 0.00295913215000819,
+            "R2 Score": 0.9977715340678854
+        }
+    }
+}
